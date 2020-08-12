@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl"?>  
+<!DOCTYPE books [
+<!ELEMENT books (book)*>
+<!ELEMENT book (Title, Author, Genre, Copyright, Edition, Isbn, Publisher, Price)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT Copyright (#PCDATA)>
+<!ELEMENT Edition (#PCDATA)>
+<!ELEMENT Isbn (#PCDATA)>
+<!ELEMENT Publisher (#PCDATA)>
+<!ELEMENT Price (#PCDATA)> 
+]>
+
+<books> 
+	<book>
+		<title> To Kill a Mockingbird </title>
+		<author> Harper Lee </author>
+		<genre> Education </genre>
+		<copyright> 2001</copyright>
+		<edition> First </edition>
+		<isbn> 9780596002312 </isbn>
+		<publisher> O'relilly </publisher>
+		<price> 2400 </price>
+ 	</book>
+ 	<book>
+		<title> 1984 </title>
+		<author> George Orwell </author>
+		<genre> Realistic fiction</genre>
+		<copyright> 1978 </copyright>
+		<edition> first </edition>
+		<isbn> 9780316769488 </isbn>
+		<publisher> Little, Brown and Company </publisher>
+		<price> 540 </price>
+	</book>
+	<book>
+		<title> Harry Potter and the Philosopher’s Stone </title>
+		<author> J.K. Rowling </author>
+		<genre> Sci-fi </genre>
+		<copyright> 1994 </copyright>
+		<edition> First </edition>
+		<isbn> 978-04202010789 </isbn>
+		<publisher> HarperCollins </publisher>
+		<price> 250 </price>
+ 	</book>
+ 	<book>
+		<title>The Lord of the Rings</title>
+		<author> J.R.R. Tolkien </author>
+		<genre> Mystery </genre>
+		<copyright> 1967 </copyright>
+		<edition> First </edition>
+		<isbn> 978-0446310789 </isbn>
+		<publisher>Hodder and Stoughton</publisher>
+		<price> 100 </price>
+ 	</book>
+ 	<book>
+		<title> The Great Gatsby </title>
+		<author> F. Scott Fitzgerald </author>
+		<genre> Mystery </genre>
+		<copyright> 2000 </copyright>
+		<edition> first </edition>
+		<isbn> 9780307588371 </isbn>
+		<publisher> Crown Publishing Group </publisher>
+		<price> 974 </price>
+ 	</book>
+</books>
